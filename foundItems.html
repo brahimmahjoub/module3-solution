@@ -1,0 +1,6 @@
+
+	<ul style="margin-top:55px;">
+		<li ng-repeat="item in items" style="margin:15px;">
+			Name: {{item.name}}, Description: {{item.description}}<button ng-click="onRemove({index:$index})">Don't want this item</button>
+		</li>
+	</ul>
